@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+		<title>JavaScript HW3</title>
+
+		<link rel = "stylesheet" type = "text/css" href = "calculator.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+		<script type="text/javascript" src = "calculator.js"></script>
+	</head>
+
+	<body> 
+		<div class = "spacer"></div>
+
+		<h1 id = "header" class = "page-heading">Basic Scientific Calculator</h1>
+		<p  id = "name" class = "page-heading">By Rishabh Prakash</p>
+
+		<script type="text/javascript">
+			window.onload = addlisteners; 
+		</script>
+
+		<div id = "container">
+			<form action="" method="get">
+				<p>
+					<input type="text" id="display"></input>
+
+					<button type = "button" id = "AC" class = "calculator-button operator" value = "AC">AC</button>
+					<button type = "button" id = "power" class = "calculator-button operator scientific" value = "x^y">x <sup>y</sup></button>
+
+					<button type = "button" id = "seven" class = "calculator-button number" value = "7">7</button>
+					<button type = "button" id = "eight" class = "calculator-button number" value = "8">8</button>
+					<button type = "button" id = "nine" class = "calculator-button number" value = "9">9</button>
+
+					<button type = "button" id = "divide" class = "calculator-button operator" value = "&divide;">&divide;</button>
+					<button type = "button" id = "root" class = "calculator-button operator scientific" value = "x root y"><sup>y</sup>√x</button>
+
+					<button type = "button" id = "four" class = "calculator-button number" value = "4">4</button>
+					<button type = "button" id = "five" class = "calculator-button number" value = "5">5</button>
+					<button type = "button" id = "six" class = "calculator-button number" value = "6">6</button>
+
+					<button type = "button" id = "multiply" class = "calculator-button operator" value = "x">x</button>
+
+					<button type = "button" id = "log" class = "calculator-button operator scientific" value = "Log" >log<sub>y</sub><sup>x</sup></button>
+
+					<button type = "button" id = "one" class = "calculator-button number" value = "1">1</button>
+					<button type = "button" id = "two" class = "calculator-button number" value = "2">2</button>
+					<button type = "button" id = "three" class = "calculator-button number" value = "3">3</button>
+
+					<button type = "button" id = "subtract" class = "calculator-button operator" value = "-">-</button>
+
+					<button type = "button" id = "percent" class = "calculator-button operator scientific" value = "%">%</button>
+
+					<button type = "button" id = "decimal" class = "calculator-button" value = ".">.</button>
+					<button type = "button" id = "zero" class = "calculator-button number" value = "0">0</button>
+					<button type = "button" id = "equals" class = "calculator-button" value = "=">=</button>
+
+					<button type = "button" id = "add" class = "calculator-button operator" value = "+">+</button>
+
+					<button type = "button" id = "mod" class = "calculator-button operator scientific" value = "Mod">mod</button>
+				</p>
+			</form>
+		</div>
+
+		
+
+		<!-- W3C XHTML Validation logo-->
+
+		<div id = "footer">
+			<p id = "footer-text">
+				<br/>
+			  <a href="http://validator.w3.org/check?uri=referer"><img
+			     src="http://www.w3.org/Icons/valid-xhtml11"
+			     alt="Valid XHTML 1.1" height="31" width="88" /></a>
+			</p>
+		</div>
+
+	</body>
+
+</html>
